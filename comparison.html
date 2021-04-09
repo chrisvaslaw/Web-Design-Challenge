@@ -52,22 +52,52 @@
   <!-- part2: mainpart -->
   <div id="wrapper" style="background-color:lightgray">
     <br><br><br><br><br>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 mr-0 ml-0" style="background-color:white!important; ">
-          <div class="row">
-            <div class="col-md-12">
-              <br>
-              <h2 style="color:green"> Humidity v. Latitude </h2>
-              <hr>
-              <img src="Resources/assets/images/Fig2.png" style="width: 80%" alt="">
-              <p>
-                Latitude does not seem to affect humidity much. There is a cap of 100, since humidity cannot exceed 100%. Many cities with latitudes ranging from 
-                -40 degrees to +40 degrees have humiditiy levels at 100%.
-             </p>
+         <!-- <div class="Col_container"> -->
+            <main class="comparison_container">
+                <header>
+                    <h2>Comparison: Latitude vs. X</h2>
+                </header>
+                <div id="wrapper" style="background-color:lightgray">
+                    <br><br><br><br><br>
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-7 mr-0 ml-0" style="background-color:white!important; ">
+                          <div class="row">
+                            <div class="col-md-12">
+                              <br>
+                              <h3 style="color:green"> Latitude v. Wind Speed </h3>
+                              <hr>
+                                 <a href="temperature.html"><figure class="comparison_figure" style="margin:20px;margin-left: 20%">
+                                <figcaption style="text-align: center;font-size: 150%">vs. Temperature</figcaption>
+                                <img src="Resources/assets/images/Fig1.jpg" alt="Temperature">
+                            </figure></a>    
+                    </div>
+
+
+                     <div class="col-sm-6 col-md-6">
+                           <a href="Temperature.html"><figure class="comparison_figure" style="margin:20px;margin-left: 20%">
+                            <figcaption style="text-align: center;font-size: 150%">vs. Cloudiness</figcaption>
+                           <img src="Resources/assets/images/Fig3.jpg" alt="Cloudiness">
+                                  </figure></a>
+                    </div>
             </div>
-          </div>
-        </div>
+            <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                           <a href="Temperature.html"><figure class="comparison_figure" style="margin-bottom:30%;margin-left: 20%">
+                            <figcaption style="text-align: center;font-size: 150%">vs. Humidity</figcaption>
+                           <img src="Resources/assets/images/Fig2.jpg" alt="Humidity">
+                                </figure></a>
+                    </div>
+                    <div class="col-sm-6 col-md-6">
+                            <a href="Temperature.html"><figure class="comparison_figure" style="margin-bottom:30%;margin-left: 20%;">
+                              <figcaption style="text-align: center;font-size: 150%">vs. Wind-speed</figcaption>
+                                <img src="Resources/assets/images/Fig4.jpg" alt="Wind Speed">
+                             </figure></a>
+                    </div>
+            </div>
+        </main>
+                <!-- </div> -->
+
         <div class="col-md-4 ml-5 mr-0" style="background-color:white!important; ">
           <br>
           <h2 style="color:green"> Visualizations </h2>
